@@ -1,0 +1,1638 @@
+/* galaxy fold device */
+@media (min-width: 279px) and (max-width: 320.9px){
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .title-1 h2 {
+        font-family: 'ProximaNovaA', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.2em;
+        text-transform: uppercase;
+        color: #e3d5ff;
+        margin: 10px 0px;
+    }
+    .title-1 p {
+        font-family: 'ProximaNovaA', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        line-height: 1.7em;
+        color: #8970b3;
+        margin: 25px 20px 35px;
+    }
+    .header{
+        width: 100%;
+        padding:0px 0px 0px;
+        background-size: cover;
+
+        & .nav-right img {
+            width: 255px;
+            margin: 11px 2px;
+        }
+        & .navbar{
+            background-color: #f33c7a;
+        }
+        & .fornavline{
+            border: none;
+        }
+        & .title-1 {
+            width: 100%;
+            margin: 40px 0px 15px;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link {
+            font-size: 12px;
+            margin: 15px 5px 8px 5px;
+            letter-spacing: 3px;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link:hover {
+            color: #1b0c30;
+            background: url(../image/Shape.png)left bottom no-repeat;
+            transform: scale(1.02) translatey(-3px) !important;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link:focus {
+            color: #1b0c30;
+            background: url(../image/Shape.png)left bottom no-repeat;
+            transform: scale(1.02) translatey(-3px) !important;
+        }
+        & .inner-header .col-lg-6{
+            margin: -120px 0px 50px 0px;
+        }
+        & .title-1 h1{
+            font-size: 22px;
+        }
+        & .title-1 h2{
+            font-size: 24px;
+            margin: 10px 0px;
+        }
+        & .title-1 h3{
+            font-size: 24px;
+            margin: 10px 0px 7px;
+        }
+        & .title-1 h4 {
+            font-size: 20px;
+            font-weight: 400;
+            padding: 8px 11px;
+            margin: 25px 0px 10px;
+        }
+        & .title-1 h5 span {
+            font-size: 40px;
+            text-transform: uppercase;
+            line-height: 1.9em;
+            color: #3d2514;
+            text-align: start !important;
+            margin: -8px 0px 20px -12px;
+        }
+        & .title-1 .btn-secondary {
+            width: 104px;
+            height: 31px;
+            font-size: 10px;
+            line-height: 1.7em;
+            text-align: center;
+            padding: 5px 8px;
+            background: transparent;
+            margin: 0px 5px 30px;
+        }
+        & .navbar .navbar-logo img {
+            width: 150px;
+        }
+    }
+    .header .inner-header .title-1 p {
+        font-size: 11px;
+        margin: 30px 0px 40px 0px;
+        letter-spacing: 0px;
+    }
+    .header .inner-header {
+        width: 100%;
+        padding: 30px 5px 0px;  
+        margin-left: 0px !important;
+    }
+    .header .inner-header .title-1 h2 {
+        font-size: 24px;
+    }
+    .header .navbar .nav-right img {
+        width: 122px;
+        margin: 8px 24px 5px;
+        padding: 3px 0px 7px 10px;
+    }
+    .header .navbar .navbar-toggler{
+        width: 49px;
+    }
+    .header .navbar .navbar-toggler-icon{
+        width: 1em;
+    }
+
+    /*  about start*/
+    .about{
+        width: 100%;
+        text-align: center;
+        padding: 60px 0px 20px;
+    }
+    .about .inner-about{
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .about .inner-about .title-1 {
+        margin: 25px 0px 0px 0px;
+        text-align: center;
+    }
+    .about .inner-about .title-1 h4 {
+        font-size: 22px;
+        line-height: 1.2em;
+        color: #e3d5ff;
+        margin: 0px 0px 0px 0px;
+    }
+    .about .inner-about .title-1 p {
+        font-size: 13px;
+        padding: 0px 5px;
+        margin: 25px 5px;
+    }
+    .about .title-1 .btn-secondary {
+        font-family: 'ProximaNovaA', sans-serif;
+        width: 104px;
+        height: 31px;
+        font-size: 10px;
+        line-height: 1.7em;
+        text-align: center;
+        padding: 6px 8px;
+        background: #f33c7a;
+        color: #f1eaff;
+        font-weight: 800;
+        text-transform: uppercase;
+        border: 1.7px solid #f33c7a;
+        border-radius: 1px;
+        transition: .75s;
+        margin: 15px 4px 0px;
+    }
+    .about .inner-about img {
+        width: 100%;
+        margin: 20px 0px;
+    }
+    /* about end */
+
+    /* work start */
+    .work {
+        width: 100%;
+        padding: 60px 10px 50px;
+        background: #1b0c30;
+        position: relative;
+    }
+    .work .title-1 .btn-secondary {
+        width: 104px;
+        height: 31px;
+        padding: 6px 8px;
+        font-size: 10px;
+        background: transparent;
+        color: #f1eaff;
+        text-transform: uppercase;
+        border: 1.7px solid #f1eaff;
+        margin: 65px 0px 0px;
+        transition: all .3s ease-in-out;
+    }
+    .work-process .inner-work-process .title-1 .iconbox {
+        width: 100%;
+        padding: 0px 150px 25px 90px;
+        margin: -20px 0px 0px -65px;
+    }
+    .pricing .title-1 h4 {
+        font-size: 20px !important;
+    }
+    .pricing .title-1 h2{
+        font-size: 18px;
+        margin: 20px 0px 7px;
+    }
+    .pricing .title-1 h3 {
+        font-size: 17px;
+        letter-spacing: 1.3px;
+        margin: 14px 0px 40px;
+    }
+    /* work end */
+
+    /* pricing start */
+    .pricing{
+        width: 100%;
+        padding: 60px 5px 40px;
+    }
+    /* pricing end  */
+
+    /* work-process start */
+    .work-process{
+        width: 100%;
+        padding: 60px 10px 40px;
+        text-align: center;
+        & .title-1 h2{
+            font-size: 20px;
+        } 
+    }
+    /* work-process end */
+
+    /* sevice start */
+    .service{
+        width: 100%;
+        padding: 60px 5px 140px;
+
+        & .title-1 p {
+            margin: 25px 10px 0px;
+        }
+
+        & .servicebox {
+            padding: 52px;
+            margin: 90px 50px -50px;
+            width: 70%;
+        }
+
+        & p{
+            margin: 0px 0px -10px;
+        }
+    }
+    /* service end */
+
+
+    .testimonial {
+        width: 100%;
+        padding: 40px 0px 50px;
+
+        & .title-1 h2 {
+            font-size: 20px;
+            margin-top: 40px;
+        }
+        & .title-1 p {
+            margin: 25px 25px 50px;
+            font-size: 13px;
+        }
+        & .title-1 h4 {
+            font-family: 'ProximaNovaA', sans-serif;
+            font-size: 12px;
+            padding: 0px 10px;
+            font-weight: 400;
+            letter-spacing: 3px;
+            line-height: 1.7em;
+            text-transform: capitalize;
+            color: #e3d5ff;
+            margin: 80px 14px 70px;
+        }
+    }
+    .testimonial-bottom{
+        padding: 0px 0px 70px;
+        width: 100%;
+    }
+
+    .contact{
+        width: 100%;
+        padding: 20px 0px 50px;
+
+        & .title-1 h2{
+            font-size: 15px;
+        }
+        & .title-1 p{
+            font-size: 12px;
+            letter-spacing: 1.5px;
+            color: #9281b0cc;
+            margin-bottom: 40px;
+        }
+        & .title-1 h3{
+            font-size: 22px;
+            margin: 0px;
+        }
+        & .col-lg-12 {
+            margin-top:0px !important;
+        }
+        & .contact-form .form-control {
+            font-family: 'ProximaNovaA', sans-serif;
+            width: 100%;
+            font-size: 11px;
+            padding: 10px 10px;
+        }
+        & .inner-footer .box-2 .start {
+            display: block;
+            padding: 5px 40px 0px 66px;
+            margin-top: 5px;
+        }
+    }
+    
+    .footer{
+        width: 100%;
+        padding: 30px 0px 0px;
+
+        & .inner-footer .box-1{
+            width: 100%;
+            margin: 0px;
+            padding: 70px 0px 50px;
+        }
+        & .inner-footer .box-1 .left-box p{
+            font-size: 13px;
+        }
+        & .inner-footer .box-1 .right-box {
+            padding: 50px 20px 0px 60px;
+        }
+        & .inner-footer .box-1 .right-box img{
+            width: 20px;
+            padding: 0px;
+        }
+        & .inner-footer .box-1 .left-box img {
+            width: 100%;
+            margin: 0px 0px 10px -20px;
+        }
+        & .inner-footer .box-1 .right-box p{
+            font-size: 13px;
+            margin: 0px 20px 10px -5px;
+            padding: 0px 15px 8px 0px;
+        }
+        & .inner-footer .box-1 .left-box p {
+            font-family: 'ProximaNovaA', sans-serif;
+            font-size: 12px;
+            padding: 0px 10px 0px 0px;
+            letter-spacing: 1px !important;
+            line-height: 1.7em;
+            font-weight: 400;
+            margin: 15px 0px 5px -10px;
+        }
+        & .inner-footer .box-1 .right-box .logo {
+            padding: 0px 0px 0px 10px;
+            margin-bottom: 10px;
+        }
+        & .inner-footer p {
+            margin: 20px 0px 15px;
+            font-size: 13px;
+        }
+        & .inner-footer .box-2 .end {
+            display: block;
+            margin-top: 5px;
+            padding: 0px 25px 0px;
+        }
+        & .inner-footer .start span{
+            font-size: 13.3px;
+        }
+        & .inner-footer .fa{
+            font-size: 16px;
+            cursor: pointer;
+            margin: 0px 0px 20px 30px;
+            transition: .3s ease-out;
+        }
+        & .inner-footer .start span:hover{
+            opacity: 1;
+            transform: scale(1.01);
+            letter-spacing: 1.3px;
+            font-size: 13.4px;
+            color: #f33c7a;
+        }
+        & .inner-footer .box-2 .start {
+            display: block;
+            padding: 5px 56px 0px;
+            margin-top: 5px;
+        }
+    }
+}
+
+/* most mobile device */
+@media (min-width: 320.99px) and (max-width: 481.9px){
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .title-1 h2 {
+        font-family: 'ProximaNovaA', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.2em;
+        text-transform: uppercase;
+        color: #e3d5ff;
+        margin: 10px 0px;
+    }
+    .title-1 p {
+        font-family: 'ProximaNovaA', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        line-height: 1.7em;
+        color: #8970b3;
+        margin: 25px 20px 35px;
+    }
+    .header{
+        width: 100%;
+        padding:0px 0px 0px;
+        background-size: cover;
+
+        & .nav-right img {
+            width: 255px;
+            margin: 11px 2px;
+        }
+        & .navbar{
+            background-color: #f33c7a;
+        }
+        & .fornavline{
+            border: none;
+        }
+        & .title-1 {
+            width: 100%;
+            margin: 40px 0px 15px;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link {
+            font-size: 12px;
+            margin: 15px 5px 8px 5px;
+            letter-spacing: 3px;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link:hover {
+            color: #1b0c30;
+            background: url(../image/Shape.png)left bottom no-repeat;
+            transform: scale(1.02) translatey(-3px) !important;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link:focus {
+            color: #1b0c30;
+            background: url(../image/Shape.png)left bottom no-repeat;
+            transform: scale(1.02) translatey(-3px) !important;
+        }
+        & .inner-header .col-lg-6{
+            margin: -120px 0px 50px 0px;
+        }
+        & .title-1 h1{
+            font-size: 22px;
+        }
+        & .title-1 h2{
+            font-size: 24px;
+            margin: 10px 0px;
+        }
+        & .title-1 h3{
+            font-size: 24px;
+            margin: 10px 0px 7px;
+        }
+        & .title-1 h4 {
+            font-size: 20px;
+            font-weight: 400;
+            padding: 8px 11px;
+            margin: 25px 0px 10px;
+        }
+        & .title-1 h5 span {
+            font-size: 40px;
+            text-transform: uppercase;
+            line-height: 1.9em;
+            color: #3d2514;
+            text-align: start !important;
+            margin: -8px 0px 20px -12px;
+        }
+        & .title-1 .btn-secondary {
+            width: 104px;
+            height: 31px;
+            font-size: 10px;
+            line-height: 1.7em;
+            text-align: center;
+            padding: 5px 8px;
+            background: transparent;
+            margin: 0px 5px 30px;
+        }
+        & .navbar .navbar-logo img {
+            width: 150px;
+        }
+    }
+    .header .inner-header .title-1 p {
+        font-size: 11px;
+        margin: 30px 0px 40px 0px;
+        letter-spacing: 0px;
+    }
+    .header .inner-header {
+        width: 100%;
+        padding: 60px 5px 10px;  
+        margin-left: 0px !important;
+    }
+    .header .inner-header .title-1 h2 {
+        font-size: 24px;
+    }
+    .header .navbar .nav-right img {
+        width: 122px;
+        margin: 8px 24px 5px;
+        padding: 3px 0px 7px 10px;
+    }
+    .header .navbar .navbar-toggler{
+        width: 49px;
+    }
+    .header .navbar .navbar-toggler-icon{
+        width: 1em;
+    }
+
+    /*  about start*/
+    .about{
+        width: 100%;
+        text-align: center;
+        padding: 60px 0px 20px;
+    }
+    .about .inner-about{
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .about .inner-about .title-1 {
+        margin: 25px 0px 0px 0px;
+        text-align: center;
+    }
+    .about .inner-about .title-1 h4 {
+        font-size: 22px;
+        line-height: 1.2em;
+        color: #e3d5ff;
+        margin: 0px 0px 0px 0px;
+    }
+    .about .inner-about .title-1 p {
+        font-size: 13px;
+        padding: 0px 5px;
+        margin: 25px 5px;
+    }
+    .about .title-1 .btn-secondary {
+        font-family: 'ProximaNovaA', sans-serif;
+        width: 104px;
+        height: 31px;
+        font-size: 10px;
+        line-height: 1.7em;
+        text-align: center;
+        padding: 6px 8px;
+        background: #f33c7a;
+        color: #f1eaff;
+        font-weight: 800;
+        text-transform: uppercase;
+        border: 1.7px solid #f33c7a;
+        border-radius: 1px;
+        transition: .75s;
+        margin: 15px 4px 0px;
+    }
+    .about .inner-about img {
+        width: 100%;
+        margin: 20px 0px;
+    }
+    /* about end */
+
+    /* work start */
+    .work {
+        width: 100%;
+        padding: 60px 10px 50px;
+        background: #1b0c30;
+        position: relative;
+    }
+    .work .title-1 .btn-secondary {
+        width: 104px;
+        height: 31px;
+        padding: 6px 8px;
+        font-size: 10px;
+        background: transparent;
+        color: #f1eaff;
+        text-transform: uppercase;
+        border: 1.7px solid #f1eaff;
+        margin: 65px 0px 0px;
+        transition: all .3s ease-in-out;
+    }
+    .work-process .inner-work-process .title-1 .iconbox {
+        width: 100%;
+        padding: 0px 275px 25px 90px;        
+        margin: -20px 0px 0px -65px;
+    }
+    .pricing .title-1 h4 {
+        font-size: 20px !important;
+    }
+    .pricing .title-1 h2{
+        font-size: 18px;
+        margin: 20px 0px 7px;
+    }
+    .pricing .title-1 h3 {
+        font-size: 17px;
+        letter-spacing: 1.3px;
+        margin: 14px 0px 40px;
+    }
+    /* work end */
+
+    /* pricing start */
+    .pricing{
+        width: 100%;
+        padding: 60px 5px 40px;
+    }
+    /* pricing end  */
+
+    /* work-process start */
+    .work-process{
+        width: 100%;
+        padding: 60px 10px 40px;
+        text-align: center;
+        & .title-1 h2{
+            font-size: 20px;
+        } 
+    }
+    /* work-process end */
+
+    /* sevice start */
+    .service{
+        width: 100%;
+        padding: 60px 5px 140px;
+
+        & p {
+            font-family: 'ProximaNovaA', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: left;
+            letter-spacing: 2px;
+            line-height: 1.7em;
+            color: #e3d5ff;
+            margin: -60px 22px 20px 50px !important;        
+        }
+         
+        & h2{
+            margin: 22px 0px 95px;
+        }
+        & .servicebox {
+            padding: 52px;
+            margin: 90px 50px -50px;
+            width: 70%;
+        }
+    }
+    /* service end */
+
+
+    .testimonial {
+        width: 100%;
+        padding: 40px 0px 50px;
+
+        & .title-1 h2 {
+            font-size: 20px;
+            margin-top: 40px;
+        }
+        & .title-1 p {
+            margin: 25px 25px 50px;
+            font-size: 13px;
+        }
+        & .title-1 h4 {
+            font-family: 'ProximaNovaA', sans-serif;
+            font-size: 12px;
+            padding: 0px 10px;
+            font-weight: 400;
+            letter-spacing: 3px;
+            line-height: 1.7em;
+            text-transform: capitalize;
+            color: #e3d5ff;
+            margin: 80px 14px 70px;
+        }
+    }
+    .testimonial-bottom {
+        padding: 20px 0px 77px;
+        margin: 10px 0px -20px;
+        width: 100%;
+        background-size: cover;
+    }
+    .contact{
+        width: 100%;
+        padding: 40px 0px 50px;
+
+        & .title-1 h2{
+            font-size: 15px;
+        }
+        & .title-1 p{
+            font-size: 12px;
+            letter-spacing: 1.5px;
+            color: #9281b0cc;
+            margin-bottom: 40px;
+        }
+        & .title-1 h3{
+            font-size: 22px;
+            margin: 0px;
+        }
+        & .contact-form .form-control {
+            font-family: 'ProximaNovaA', sans-serif;
+            width: 100%;
+            font-size: 11px;
+            padding: 10px 10px;
+        }
+    }
+
+    .footer{
+        width: 100%;
+        padding: 30px 0px 0px;
+
+        & .inner-footer .box-1{
+            width: 100%;
+            margin: 0px;
+            padding: 70px 0px 50px;
+        }
+        & .inner-footer .box-1 .left-box p{
+            font-size: 13px;
+        }
+        & .inner-footer .box-1 .right-box {
+            padding: 50px 20px 0px 60px;
+        }
+        & .inner-footer .box-1 .right-box img{
+            width: 20px;
+            padding: 0px;
+        }
+        & .inner-footer .box-1 .left-box img {
+            width: 100%;
+            margin: 0px 0px 10px -20px;
+        }
+        & .inner-footer .box-1 .right-box p{
+            font-size: 13px;
+            margin: 0px 20px 10px -5px;
+            padding: 0px 15px 8px 0px;
+        }
+        & .inner-footer .box-1 .left-box p {
+            font-family: 'ProximaNovaA', sans-serif;
+            font-size: 12px;
+            padding: 0px 10px 0px 0px;
+            letter-spacing: 1px !important;
+            line-height: 1.7em;
+            font-weight: 400;
+            margin: 15px 0px 5px -10px;
+        }
+        & .inner-footer .box-1 .right-box .logo {
+            padding: 0px 0px 0px 10px;
+            margin-bottom: 10px;
+        }
+        & .inner-footer p {
+            margin: 20px 0px 15px;
+            font-size: 13px;
+        }
+        & .inner-footer .box-2 .end {
+            display: block;
+            margin-top: 5px;
+            padding: 0px 42px 0px;
+        }
+        & .inner-footer .start span{
+            font-size: 13.3px;
+        }
+        & .inner-footer .fa{
+            font-size: 16px;
+            cursor: pointer;
+            margin: 0px 0px 20px 30px;
+            transition: .3s ease-out;
+        }
+        & .inner-footer .start span:hover{
+            opacity: 1;
+            transform: scale(1.01);
+            letter-spacing: 1.3px;
+            font-size: 13.4px;
+            color: #f33c7a;
+        }
+    }
+}
+
+/* high mobile low tab device */
+@media (min-width: 481.99px) and (max-width: 767.9px){
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .title-1 h2 {
+        font-family: 'ProximaNovaA', sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 1.2em;
+        text-transform: uppercase;
+        color: #e3d5ff;
+        margin: 10px 0px;
+    }
+    .title-1 p {
+        font-family: 'ProximaNovaA', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        line-height: 1.7em;
+        color: #8970b3;
+        margin: 25px 20px 35px;
+    }
+    .header{
+        width: 100%;
+        padding:0px 0px 0px;
+        background-size: cover;
+
+        & .nav-right img {
+            width: 255px;
+            margin: 11px 2px;
+        }
+        & .navbar{
+            background-color: #f33c7a;
+        }
+        & .fornavline{
+            border: none;
+        }
+        & .title-1 {
+            width: 100%;
+            margin: 40px 0px 15px;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link {
+            font-size: 12px;
+            margin: 15px 5px 8px 5px;
+            letter-spacing: 3px;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link:hover {
+            color: #1b0c30;
+            background: url(../image/Shape.png)left bottom no-repeat;
+            transform: scale(1.02) translatey(-3px) !important;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link:focus {
+            color: #1b0c30;
+            background: url(../image/Shape.png)left bottom no-repeat;
+            transform: scale(1.02) translatey(-3px) !important;
+        }
+        & .inner-header .col-lg-6{
+            margin: -120px 0px 50px 0px;
+        }
+        & .title-1 h1{
+            font-size: 22px;
+        }
+        & .title-1 h2{
+            font-size: 26px;
+            margin: 10px 0px;
+        }
+        & .title-1 h3{
+            font-size: 26px;
+            margin: 10px 0px 7px;
+        }
+        & .title-1 h4 {
+            font-size: 22px;
+            font-weight: 400;
+            padding: 8px 11px;
+            margin: 25px 0px 10px;
+        }
+        & .title-1 h5 span {
+            font-size: 42px;
+            text-transform: uppercase;
+            line-height: 1.9em;
+            color: #3d2514;
+            text-align: start !important;
+            margin: -8px 0px 20px -12px;
+        }
+        & .title-1 .btn-secondary {
+            width: 104px;
+            height: 31px;
+            font-size: 10px;
+            line-height: 1.7em;
+            text-align: center;
+            padding: 5px 8px;
+            background: transparent;
+            margin: 0px 5px 30px;
+        }
+        & .navbar .navbar-logo img {
+            width: 180px;
+            margin-top: 2px;
+        }
+    }
+    .header .inner-header .title-1 p {
+        font-size: 12px;
+        margin: 30px 0px 40px 0px;
+        letter-spacing: 0px;
+    }
+    .header .inner-header {
+        width: 100%;
+        padding: 60px 5px 10px;  
+        margin-left: 0px !important;
+    }
+    .header .inner-header .title-1 h2 {
+        font-size: 26px;
+    }
+    .header .navbar .nav-right img {
+        width: 122px;
+        margin: 8px 24px 5px;
+        padding: 3px 0px 7px 10px;
+    }
+    .header .navbar .navbar-toggler{
+        width: 49px;
+    }
+    .header .navbar .navbar-toggler-icon{
+        width: 1em;
+    }
+
+    /*  about start*/
+    .about{
+        width: 100%;
+        text-align: center;
+        padding: 70px 0px 20px;
+    }
+    .about .inner-about{
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .about .inner-about .title-1 {
+        margin: 25px 0px 0px 0px;
+        text-align: center;
+    }
+    .about .inner-about .title-1 h4 {
+        font-size: 24px;
+        line-height: 1.2em;
+        color: #e3d5ff;
+        margin: 0px 0px 0px 0px;
+    }
+    .about .inner-about .title-1 p {
+        font-size: 14px;
+        padding: 0px 5px;
+        margin: 25px 5px;
+    }
+    .about .title-1 .btn-secondary {
+        font-family: 'ProximaNovaA', sans-serif;
+        width: 104px;
+        height: 31px;
+        font-size: 10px;
+        line-height: 1.7em;
+        text-align: center;
+        padding: 6px 8px;
+        background: #f33c7a;
+        color: #f1eaff;
+        font-weight: 800;
+        text-transform: uppercase;
+        border: 1.7px solid #f33c7a;
+        border-radius: 1px;
+        transition: .75s;
+        margin: 15px 4px 0px;
+    }
+    .about .inner-about img {
+        width: 100%;
+        margin: 40px 0px;
+    }
+    /* about end */
+
+    /* work start */
+    .work {
+        width: 100%;
+        padding: 70px 10px 50px;
+        background: #1b0c30;
+        position: relative;
+    }
+    .work .title-1 .btn-secondary {
+        width: 104px;
+        height: 31px;
+        padding: 6px 8px;
+        font-size: 10px;
+        background: transparent;
+        color: #f1eaff;
+        text-transform: uppercase;
+        border: 1.7px solid #f1eaff;
+        margin: 65px 0px 0px;
+        transition: all .3s ease-in-out;
+    }
+    .work-process .inner-work-process .title-1 .iconbox {
+        width: 100%;
+        padding: 0px ;        
+        margin: 0px;
+    }
+    .pricing .title-1 h4 {
+        font-size: 24px !important;
+    }
+    .pricing .title-1 h2{
+        font-size: 22px;
+        margin: 20px 0px 7px;
+    }
+    .pricing .inner-pricing .price-content p {
+        font-size: 14px;
+    }
+    .pricing .title-1 h3 {
+        font-size: 20px;
+        letter-spacing: 1.3px;
+        margin: 14px 0px 40px;
+    }
+    /* work end */
+
+    /* pricing start */
+    .pricing{
+        width: 100%;
+        padding: 60px 5px 40px;
+    }
+    /* pricing end  */
+
+    /* work-process start */
+    .work-process{
+        width: 100%;
+        padding: 70px 10px 40px;
+        text-align: center;
+        & .title-1 h2{
+            font-size: 20px;
+        } 
+    }
+    .work-process .inner-work-process .work-box {
+        padding: 20px 5px 20px;
+        margin: 0px 0px 20px 0px;
+        transition: all .5s ease;
+    }
+    /* work-process end */
+
+    /* sevice start */
+    .service{
+        width: 100%;
+        padding: 70px 5px 140px;
+
+        & .title-1 .top-p p {
+            font-family: 'ProximaNovaA', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: center;
+            letter-spacing: 2px;
+            line-height: 1.7em;
+            color: #e3d5ff;
+        }
+        & p {
+            font-family: 'ProximaNovaA', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: left;
+            letter-spacing: 2px;
+            line-height: 1.7em;
+            color: #e3d5ff;
+            margin: -60px 28px 20px 50px !important;        
+        }
+         
+        & h2{
+            margin: 22px 0px 95px;
+        }
+        & .servicebox {
+            padding: 52px;
+            margin: 90px 50px -50px;
+            width: 70%;
+        }
+    }
+    /* service end */
+
+
+    .testimonial {
+        width: 100%;
+        padding: 50px 5px 50px;
+
+        & .title-1 h2 {
+            font-size: 20px;
+            margin-top: 40px;
+        }
+        & .title-1 p {
+            margin: 25px 25px 50px;
+            font-size: 13px;
+        }
+        & .title-1 h4 {
+            font-family: 'ProximaNovaA', sans-serif;
+            font-size: 16px;
+            padding: 0px 10px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            line-height: 1.7em;
+            text-transform: capitalize;
+            color: #e3d5ff;
+            margin: 80px 14px 70px;
+        }
+    }
+    .testimonial-bottom {
+        padding: 5px 0px 140px;
+        margin: 0px 0px -20px;
+        width: 100%;
+        background-size: cover;
+    }
+    .contact{
+        width: 100%;
+        padding: 50px 5px 50px;
+
+        & .title-1 h2{
+            font-size: 15px;
+        }
+        & .title-1 p{
+            font-size: 12px;
+            letter-spacing: 1.5px;
+            color: #9281b0cc;
+            margin-bottom: 40px;
+        }
+        & .title-1 h3{
+            font-size: 22px;
+            margin: 0px;
+        }
+        & .contact-form .form-control {
+            font-family: 'ProximaNovaA', sans-serif;
+            width: 100%;
+            font-size: 11px;
+            padding: 10px 10px;
+        }
+    }
+
+    .footer{
+        width: 100%;
+        padding: 30px 0px 0px;
+
+        & .inner-footer .box-1{
+            width: 100%;
+            margin: 0px;
+            padding: 70px 0px 50px;
+        }
+        & .inner-footer .box-1 .left-box p{
+            font-size: 13px;
+        }
+        & .inner-footer .box-1 .right-box {
+            padding: 50px 20px 0px 60px;
+        }
+        & .inner-footer .box-1 .right-box img{
+            width: 20px;
+            padding: 0px;
+        }
+        & .inner-footer .box-1 .left-box img {
+            width: 100%;
+            margin: 0px 0px 10px -20px;
+        }
+        & .inner-footer .box-1 .right-box p{
+            font-size: 13px;
+            margin: 0px 20px 10px -5px;
+            padding: 0px 15px 8px 0px;
+        }
+        & .inner-footer .box-1 .left-box p {
+            font-family: 'ProximaNovaA', sans-serif;
+            font-size: 12px;
+            padding: 0px 10px 0px 0px;
+            letter-spacing: 1px !important;
+            line-height: 1.7em;
+            font-weight: 400;
+            margin: 15px 0px 5px -10px;
+        }
+        & .inner-footer .box-1 .right-box .logo {
+            padding: 0px 0px 0px 10px;
+            margin-bottom: 10px;
+        }
+        & .inner-footer p {
+            margin: 20px 0px 15px;
+            font-size: 13px;
+        }
+        & .inner-footer .box-2 .end {
+            display: block;
+            margin-top: 5px;
+            padding: 0px 25px 0px;
+        }
+        & .inner-footer .start span{
+            font-size: 13.3px;
+        }
+        & .inner-footer .fa{
+            font-size: 16px;
+            cursor: pointer;
+            margin: 0px 0px 20px 30px;
+            transition: .3s ease-out;
+        }
+        & .inner-footer .start span:hover{
+            opacity: 1;
+            transform: scale(1.01);
+            letter-spacing: 1.3px;
+            font-size: 13.4px;
+            color: #f33c7a;
+        }
+        & .inner-footer .box-2 .start {
+            display: block;
+            padding: 5px 55px 0px;
+            margin-top: 5px;
+        }
+    }
+}
+/* most tablet,notebook device */
+@media (min-width: 767.99px) and (max-width: 1024px){
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .col-lg-3{
+        margin-bottom: 20px;
+    }
+    .title-1 h2 {
+        font-family: 'ProximaNovaA', sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.2em;
+        text-transform: uppercase;
+        color: #e3d5ff;
+        margin: 10px 0px;
+    }
+    .title-1 p {
+        font-family: 'ProximaNovaA', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        line-height: 1.7em;
+        color: #8970b3;
+        margin: 25px 20px 35px;
+    }
+    .header{
+        width: 100%;
+        padding:0px 0px 20px;
+        margin-top: 0px;
+        background-size: cover;
+
+        & .navbar{
+            background-color: #f33c7a;
+        }
+        & .fornavline{
+            border: none;
+        }
+        & .title-1 {
+            width: 100%;
+            margin: 40px 0px 15px;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link {
+            font-size: 14px;
+            margin: 16px 5px 4px 5px;
+            letter-spacing: 3px;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link:hover {
+            color: #1b0c30;
+            background: url(../image/Shape.png)left bottom no-repeat;
+            transform: scale(1.02) translatey(-3px) !important;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link:focus {
+            color: #1b0c30;
+            background: url(../image/Shape.png)left bottom no-repeat;
+            transform: scale(1.02) translatey(-3px) !important;
+        }
+        & .title-1 h1{
+            font-size: 24px;
+        }
+        & .title-1 h2{
+            font-size: 28px;
+            margin: 10px 0px;
+        }
+        & .title-1 h3{
+            font-size: 28px;
+            margin: 10px 0px 7px;
+        }
+       
+        & .title-1 .btn-secondary {
+            width: 116px;
+            height: 36px;
+            font-size: 11px;
+            line-height: 1.7em;
+            text-align: center;
+            padding: 7px 9px 9px;
+            background: transparent;
+            margin: 0px 5px 30px;
+        }
+        & .navbar .navbar-logo img {
+            width: 180px;
+            margin-top: 2px;
+        }
+    }
+    .header .inner-header .title-1 p {
+        font-size: 12px;
+        margin: 30px 0px 40px 0px;
+        letter-spacing: 0px;
+    }
+    .header .inner-header {
+        width: 100%;
+        padding: 60px 5px 10px;  
+        margin-left: 0px !important;
+    }
+    .header .inner-header .title-1 h2 {
+        font-size: 28px;
+    }
+    .about{
+        width: 100%;
+        padding: 70px 0px;
+    }
+    .about .inner-about .title-1 {
+        margin:0px;
+    }
+    .about .inner-about .title-1 h4{
+        font-size: 28px;
+    }
+    .about .title-1 .btn-secondary{
+        width: 116px;
+        height: 36px;
+        font-size: 11px;
+        line-height: 1.7em;
+        text-align: center;
+        padding: 7px 9px 7px;
+    }
+    .about .inner-about .title-1 p {
+        padding: 0px 45px 0px 0px;
+        margin: 35px 50px 28px 1px;
+    }
+    .about .inner-about img {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .pricing{
+        width: 100%;
+        padding: 80px 25px ;
+    }
+
+
+    .service p{
+        font-family: 'ProximaNovaA', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        letter-spacing: 2px;
+        line-height: 1.7em;
+        color: #e3d5ff;
+        margin: -15px 0px 5px 15px;
+    }
+
+    .work {
+        width: 100%;
+        padding: 80px 40px 100px;
+        background: #1b0c30;
+        position: relative;
+    }
+
+    .testimonial{
+        padding: 70px 10px
+    }
+
+    .testimonial .title-1 h2 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .testimonial .title-1 p {
+        margin: 15px 25px 30px;
+        font-size: 14px;
+    }
+    .testimonial .title-1 h4 {
+        font-family: 'ProximaNovaA', sans-serif;
+        font-size: 16px;
+        padding: 0px 33px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 1.7em;
+        text-transform: capitalize;
+        color: #e3d5ff;
+        margin: 50px 20px 50px;
+    }
+    .testimonial .title-1 h3 {
+        font-size: 15px;
+    }
+    .service .servicebox {
+        padding: 52px 0px 52px 52px;
+        margin: 10px 0px 0px 3px;
+        width: 100%;
+        height: 100%;
+        background: url(../image/skill1.png) top left no-repeat;
+        background-size: auto;
+    }
+    .testimonial-bottom {
+        position: relative;
+        width: 100%;
+        background: url(../image/l0.png) center top no-repeat;
+        background-size: contain;
+        padding: 85px 0px 90px;
+        margin: 0px 0px -35px;
+        z-index: 1;
+    }
+
+    .contact {
+        width: 100%;
+        padding: 40px 0px 90px;
+        background: url(../image/contactbg.png) center top no-repeat;
+        background-color: #1b0c30 !important;
+        background-size: cover;
+        text-align: center;
+        z-index: -1;
+    }
+    .contact .title-1 p {
+        color: #9281b0cc;
+        margin-bottom: 60px;
+    }
+
+    .footer .inner-footer .box-2 .start {
+        display: block;
+        padding: 5px 90px 0px;
+        margin-top: 5px;
+    }
+    .footer .inner-footer .box-2 .end {
+        display: block;
+        margin-top: 5px;
+        padding: 5px 55px 0px;
+    }
+}
+/***************** Extra *******************/
+@media (min-width: 991.99px) and (max-width: 1024.99px){
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .header{
+        width: 100%;
+        padding: 0px 0px 0px;
+
+        & .navbar{
+            background: none;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link {
+            font-size: 12px;
+            margin: 1px 0px 0px 11px !important;
+            letter-spacing: 0px;
+        }
+        & .isStuck{
+            left:0px;
+            width:100%;
+            background: #2f1a4b;
+        }
+        
+        & .title-1 {
+            width: 100%;
+            margin: 90px 25px 135px;
+        }
+        
+        & .navbar .navbar-nav .nav-item .nav-link{
+            transition: color 1s transform 1s;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link:hover {
+            background: url(../image/Shape.png) center bottom no-repeat;
+            background-size:auto ;
+            color: #f33c7a;
+            transform: scale(1.05) translateY(-3px) !important;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link:focus {
+            color: #f33c7a;
+            transform: scale(1.05) translateX(-3px) !important;
+        }
+    }
+   
+    .navbar .navbar-nav .nav-item .nav-link {
+        margin: 65px 0px 0px 37px !important;
+    }
+   
+    .about{
+        padding: 90px 0px 50px;
+    }
+    .about .inner-about {
+        width: 100%;
+        margin: 45px 0px 20px;
+    }
+    .about .inner-about img {
+        width: 100%;
+        margin-top: 33px;
+    }
+
+    .work .title-1 .btn-secondary{
+        margin-top: 60px;
+    }
+
+    .work-process {
+        width: 100%;
+        padding: 85px 5px 45px;
+        background: url(../image/work.png) center top no-repeat;
+        background-size: cover;
+    }
+
+    .pricing {
+        width: 100%;
+        padding: 80px 0px 60px;
+    }
+    .pricing .inner-pricing .price-content p {
+        font-family: 'ProximaNovaA', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        color: #8970b3;
+        margin: 0px 0px 35px;
+    }
+    .pricing .inner-pricing .price-content .btn-secondary{
+        width: 116px;
+        height: 36px;
+        font-size: 11px;
+        line-height: 1.7em;
+        text-align: center;
+        padding: 7px 9px 7px;
+    }
+    .service p{
+        margin: -8px 0px 0px 6px;
+    }
+
+    .footer .inner-footer .box-2 .end {
+        display: block;
+        margin-top: 5px;
+        padding: 7px 20px 0px;
+    }
+}
+/* extra screen*/
+@media (min-width: 1024.1px) and (max-width: 1399.9px){
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .title-1 h1{
+        font-size: 60px;
+    }
+    .title-1 h2{
+        font-size: 50px;
+    }
+    .title-1 h3{
+        font-size: 60px;
+    }
+    .title-1 h4{
+        font-size: 34px;
+    }
+    .title-1 p{
+        font-size: 16px;
+    }
+    .header{
+        width: 100%;
+        padding: 20px 0px 80px;
+
+        & .inner-header {
+            width: 100%;
+            padding: 20px;
+            margin-left: 0px !important;
+        }
+        & .inner-header .title-1 h2{
+            font-size: 60px;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link {
+            font-size: 13px;
+            margin: 1px 0px 0px 7px !important;
+            letter-spacing: 1px;
+        }
+        & .isStuck{
+            left:0px;
+            width:100%;
+            background: #2f1a4b;
+        }
+        
+        & .title-1 {
+            width: 100%;
+            margin: 90px 25px 135px;
+        }
+      
+        & .navbar .navbar-nav .nav-item .nav-link:hover {
+            background: url(../image/Shape.png) center bottom no-repeat;
+            background-size:auto ;
+            color: #f33c7a;
+            transform: scale(1.05) translateY(-3px) !important;
+        }
+        & .navbar .navbar-nav .nav-item .nav-link:focus {
+            color: #f33c7a;
+            transform: scale(1.05) translateX(-3px) !important;
+        }
+    }
+    .header .navbar .navbar-logo img {
+        width: 250px;
+        padding: 0px;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        margin: 65px 0px 0px 37px !important;
+    }
+    
+
+    .about{
+        padding: 100px 0px 90px;
+    }
+    .about .inner-about img {
+        width: 88%;
+        margin-top: 60px;
+    }
+    .about .inner-about {
+        width: 100%;
+        margin: 55px 0px 20px;
+        padding: 0px 70px;
+    }
+    .about .title-1 .btn-secondary{
+        margin: 15px 0px 0px;
+    }
+    .about .inner-about .title-1 p {
+        padding: 0px 45px 0px 0px;
+        margin: 33px 50px 22px 0px;
+    }
+    .about .inner-about .title-1 {
+        margin: 77px 0px 0px 0px;
+        text-align: left;
+    }
+
+    .service p{
+        margin: 0px;
+    }
+    .service .servicebox{
+        margin: 0px 25px;
+    }
+
+
+    .testimonial-bottom {
+        position: relative;
+        width: 100%;
+        background: url(../image/l0.png) center top no-repeat;
+        background-size: contain;
+        padding: 90px 0px 150px;
+        margin-bottom: -60px;
+        z-index: 1;
+    }
+
+    .contact{
+        padding: 80px 0px 120px;
+    }
+
+    .footer .inner-footer .box-1 .left-box p{
+        font-size: 16px;
+    }
+    .footer .inner-footer .box-2 .end {
+        display: block;
+        margin-top: 5px;
+        padding: 7px 10px 0px;
+    }
+}
+@media (min-width: 1199.99px) and (max-width: 9999.9px){
+    .header{
+        width: 100%;
+    
+        & .title-1 {
+            margin: 215px 0px 0px !important;
+        }
+    }
+    .contact {
+        width: 100%;
+        padding: 80px 0px 140px;
+        margin-top: -120px;
+    }
+   
+    .contact .conta{
+        margin-top: 80px;
+    }
+}
